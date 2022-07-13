@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: lightblue; */
+}
+
+.flex-container > div {
+  padding: 10px;
+  border: 1px solid #282c34;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: teal; */
+  width: 50%;
+}
+
+.wrapper > h3 {
+  color:crimson;
+}
+
+.wrapper > button {
+  /* background-color: azure; */
+  margin: 5px;
+  /* padding: 10px; */
+  /* width: 50px; */
+  text-align: center;
+}
+
+/* .wrapper > p:hover {
+  background-color: lightgoldenrodyellow;
+  cursor: pointer;
+} */
+
+/* .wrapper > input {
+  margin: 0.5rem
+} */
